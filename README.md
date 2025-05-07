@@ -6,7 +6,7 @@ A simple, terminal based note taking utility.
 # Update notes (v0.2_b)
 - Made fixes and optimizations.
 
-Future update ideas [v0.3_a]:
+-> Future update ideas [v0.3_a]:
 - Installation setup,
 - Settings
 
