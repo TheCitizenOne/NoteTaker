@@ -8,7 +8,7 @@ A simple, terminal based note taking utility.
 
 -> Future update ideas [v0.3_a]:
 - Installation setup,
-- Settings
+- Settings.
 
 # Requirements
 - PyQt5
