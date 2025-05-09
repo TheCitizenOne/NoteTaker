@@ -7,7 +7,7 @@ A simple, terminal based note taking utility.
 - Made fixes and optimizations.
 
 <h2> Future update ideas (v0.3_a):</h2>
-- Installation setup, <br>
+- Build system, <br>
 - Settings
 
 # Requirements
