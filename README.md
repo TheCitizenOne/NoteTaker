@@ -8,7 +8,7 @@ Simple note taking utility. Developed by citizen (communotron).
 2-) Added preference system for make UI more user-friendly,  
 3-) Code and file structure completely revised.  
 
-See changelog for details.
+See changelog for more details.
 
 # Future update ideas [v0.3_b]:  
 -> Note Taker icon,  
