@@ -10,7 +10,7 @@ Simple note taking utility. Developed by citizen (communotron).
 
 See changelog for more details.
 
-# Future update ideas [v0.3_b]:  
+# Future update ideas (v0.3_b):  
 -> Note Taker icon,  
 -> Code revision for better structure and performance,  
 -> Optimization and bug fix.
