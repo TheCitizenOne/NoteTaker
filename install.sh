@@ -30,7 +30,7 @@ mkdir -p "$BIN_DIR"
 mkdir -p "$CONFIG_DIR"
 
 # Check for notetaker directory structure
-if [ -d "../notetaker/src" ]; then
+if [ -d "../v0.3_a/src" ]; then
     echo "Copying project files..."
     
     mkdir -p "$INSTALL_DIR/src"
@@ -56,14 +56,14 @@ if __name__ == "__main__":
 EOL
     
     # Copy the application files from the correct location
-    cp ../notetaker/src/main.py "$INSTALL_DIR/src/"
-    cp ../notetaker/src/interface.py "$INSTALL_DIR/src/"
-    cp ../notetaker/src/logic.py "$INSTALL_DIR/src/"
-    cp ../notetaker/src/libs.py "$INSTALL_DIR/src/"
+    cp ../v0.3_a/src/main.py "$INSTALL_DIR/src/"
+    cp ../v0.3_a/src/interface.py "$INSTALL_DIR/src/"
+    cp ../v0.3_a/src/logic.py "$INSTALL_DIR/src/"
+    cp ../v0.3_a/src/libs.py "$INSTALL_DIR/src/"
     
     # Copy __init__.py if it exists
-    if [ -f "notetaker/src/__init__.py" ]; then
-        cp notetaker/src/__init__.py "$INSTALL_DIR/src/"
+    if [ -f "v0.3_a/src/__init__.py" ]; then
+        cp v0.3_a/src/__init__.py "$INSTALL_DIR/src/"
     else
         # Create __init__.py if it doesn't exist
         cat > "$INSTALL_DIR/src/__init__.py" << 'EOL'
@@ -74,8 +74,8 @@ EOL
     fi
     
     # Copy README
-    if [ -f "notetaker/README.md" ]; then
-        cp notetaker/README.md "$INSTALL_DIR/"
+    if [ -f "v0.3_a/README.md" ]; then
+        cp v0.3_a/README.md "$INSTALL_DIR/"
     fi
     
     echo -e "${GREEN}Files copied successfully!${NC}"
